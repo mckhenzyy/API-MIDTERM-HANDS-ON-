@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "acf2e2fe-a517-4b87-9ecb-3ce659e80742",
+		"name": "api_midterm_handson",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42751452",
+		"_collection_link": "hhttps://www.postman.com/navigation-astronomer-80064669/workspace/student-api/collection/42751452-acf2e2fe-a517-4b87-9ecb-3ce659e80742?action=share&source=collection_link&creator=42751452"
+	},
+	"item": [
+		{
+			"name": "GET ALL PRODUCT",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET SPECIFIC PRODUCT",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET LATEST PRICE",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/Product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/Product/Latest",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/Product/3",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
