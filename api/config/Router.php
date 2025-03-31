@@ -12,9 +12,9 @@ class Router {
     private function defineRoutes() {
         $this->routes = [
             'GET' => [
+                'Product/Latest' => [ProductController::class, 'GetLatestPriceOfTheProduct'],
                 'Product' => [ProductController::class, 'GetAllProduct'],
                 'Product/{id}' => [ProductController::class, 'GetProductById'],
-                'Product/Latest' => [ProductController::class, 'GetLatestPriceOfTheProduct'],
             ],
         ];
     }
